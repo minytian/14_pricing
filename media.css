@@ -1,0 +1,25 @@
+@media (max-width: 1199px){
+	html{
+		font-size: 8px;
+	}
+
+}
+
+@media (max-width: 991px){
+	html{
+		font-size: 7px;
+	}
+	.main{height: 50vh;}
+	.table-header p{font-size: 3rem; display: inline-block; width: 30rem;}
+	.visible-lg{display: none;}
+	.m-menu-link{ display: block; }
+	.menu-link-getstarted-btn{margin: 0;}
+	.price-tags{flex-direction: column;}
+	.price-tag{width: 90%; margin: 2rem auto;}
+	.call-to-action{ padding: 20rem 5rem;}
+	.footer-menu{ display: none; }
+	.footer-wrap{justify-content: center;}
+	.social-links a{font-size: 3rem;}
+	.social-links{padding-top: 3rem;}
+	.legal{flex-direction: column;padding-bottom: 5rem;}
+}
